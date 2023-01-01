@@ -1,0 +1,210 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": [
+        "Hello!",
+        "Hi there!",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Good morning! How can I assist you?",
+        "Good afternoon! Is there anything I can help with?",
+        "Good evening! How may I be of service?"
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        "Goodbye!",
+        "See you later",
+        "I have to go",
+        "I'll be back later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care.",
+        "I'm glad I could help. Have a good day!",
+        "I'll be here when you get back. Have a great day!"
+      ]
+    },
+    {
+      "intent": "affirmative",
+      "examples": [
+        "Yes",
+        "Sure",
+        "Definitely",
+        "Absolutely"
+      ],
+      "responses": [
+        "Great! How can I assist you?",
+        "Sure thing! What can I do for you?",
+        "Definitely! What do you need?",
+        "Absolutely! How can I help?"
+      ]
+    },
+    {
+      "intent": "negative",
+      "examples": [
+        "No",
+        "Not really",
+        "I don't think so",
+        "I'm not sure"
+      ],
+      "responses": [
+        "Okay, is there something else I can help with?",
+        "Not a problem. Is there anything else you'd like to ask?",
+        "Understood. Is there anything else I can do for you?",
+        "I see. Is there anything else on your mind?"
+      ]
+    },
+    {
+      "intent": "ask_time",
+      "examples": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "Do you know what time it is?",
+        "I need to know the time"
+      ],
+      "responses": [
+        "I'm sorry, I don't have access to the current time. You can check your phone or a clock for the most accurate time.",
+        "I don't have a way to check the current time. You can use your phone or a clock to get the most accurate time.",
+        "I don't have access to the current time. You can check your phone or a clock to find out what time it is.",
+        "I'm sorry, I don't have the current time. You can check your phone or a clock for the most accurate time."
+      ]
+    },
+    {
+      "intent": "ask_weather",
+      "examples": [
+        "What's the weather like?",
+        "Do you know what the weather is?",
+        "Is it raining outside?",
+        "Is it going to be sunny today?"
+      ],
+      "responses": [
+        "I am not sure I can access your location to check for weather, sorry :("
+      ]
+    },
+    {
+      "intent": "view_order_status",
+      "examples": [
+        "What is the status of my order?",
+        "Can you tell me the status of my order?",
+        "I'd like to know the status of my order",
+        "I'm curious about the status of my order"
+      ],
+      "responses": [
+        "Sure! I can check the status of your order. Can you please provide your order number?",
+        "No problem! In order to check the status of your order, I'll need your order number. Do you have it handy?",
+        "Of course! In order to look up the status of your order, I'll need your order number. Can you provide that for me?",
+        "Absolutely! I can help you with that. In order to check the status of your order, I'll need your order number. Do you have that available?"
+      ]
+    },
+    {
+      "intent": "cancel_order",
+      "examples": [
+        "I'd like to cancel my order",
+        "Can you cancel my order?",
+        "I want to cancel my order",
+        "I need to cancel my order"
+      ],
+      "responses": [
+        "Sure thing! I can cancel your order for you. Can you please provide your order number?",
+        "No problem! In order to cancel your order, I'll need your order number. Do you have it handy?",
+        "Of course! In order to cancel your order, I'll need your order number. Can you provide that for me?",
+        "Absolutely! I can help you with that. In order to cancel your order, I'll need your order number. Do you have that available?"
+      ]
+    },
+    {
+      "intent": "return_order",
+      "examples": [
+        "I'd like to return my order",
+        "Can you help me return my order?",
+        "I want to return my order",
+        "I need to return my order"
+      ],
+      "responses": [
+        "Sure thing! I can help you with that. Can you please provide your order number?",
+        "No problem! In order to process a return for your order, I'll need your order number. Do you have it handy?",
+        "Of course! In order to process a return for your order, I'll need your order number. Can you provide that for me?",
+        "Absolutely! I can help you with that. In order to process a return for your order, I'll need your order number. Do you have that available?"
+      ]
+    },
+    {
+      "intent": "change_order",
+      "examples": [
+        "I'd like to change my order",
+        "Can you help me change my order?",
+        "I want to change my order",
+        "I need to change my order"
+      ],
+      "responses": [
+        "Sure thing! I can help you with that. Can you please provide your order number?",
+        "No problem! In order to make changes to your order, I'll need your order number. Do you have it handy?",
+        "Of course! In order to make changes to your order, I'll need your order number. Can you provide that for me?"
+      ]
+    },
+    {
+      "intent": "add_item_to_order",
+      "examples": [
+        "I'd like to add an item to my order",
+        "Can I add an item to my order?",
+        "I want to add an item to my order",
+        "I need to add an item to my order"
+      ],
+      "responses": [
+        "Sure thing! I can help you with that. Can you please provide your order number?",
+        "No problem! In order to add an item to your order, I'll need your order number. Do you have it handy?",
+        "Of course! In order to add an item to your order, I'll need your order number. Can you provide that for me?",
+        "Absolutely! I can help you with that. In order to add an item to your order, I'll need your order number. Do you have that available?"
+      ]
+    },
+    {
+      "intent": "remove_item_from_order",
+      "examples": [
+        "I'd like to remove an item from my order",
+        "Can I remove an item from my order?",
+        "I want to remove an item from my order",
+        "I need to remove an item from my order"
+      ],
+      "responses": [
+        "Sure thing! I can help you with that. Can you please provide your order number?",
+        "No problem! In order to remove an item from your order, I'll need your order number. Do you have it handy?",
+        "Of course! In order to remove an item from your order, I'll need your order number. Can you provide that for me?",
+        "Absolutely! I can help you with that. In order to remove an item from your order, I'll need your order number. Do you have that available?"
+      ]
+    },
+    {
+      "intent": "change_shipping_address",
+      "examples": [
+        "I'd like to change the shipping address for my order",
+        "Can I change the shipping address for my order?",
+        "I want to change the shipping address for my order",
+        "I need to change the shipping address for my order"
+      ],
+      "responses": [
+        "Sure thing! I can help you with that. Can you please provide your order number?",
+        "No problem! In order to change the shipping address for your order, I'll need your order number. Do you have it handy?",
+        "Of course! In order to change the shipping address for your order, I'll need your order number. Can you provide that for me?",
+        "Absolutely! I can help you with that. In order to change the shipping address for your order, I'll need your order number. Do you have that available?"
+      ]
+    },
+    {
+      "intent": "change_payment_method",
+      "examples": [
+        "I'd like to change the payment method for my order",
+        "Can I change the payment method for my order?",
+        "I want to change the payment method for my order",
+        "I need to change the payment method for my order"
+      ],
+      "responses": [
+        "Sure thing! I can help you with that. Can you please provide your order number?",
+        "No problem, please provide your order number."
+      ]
+    }
+  ]
+}
