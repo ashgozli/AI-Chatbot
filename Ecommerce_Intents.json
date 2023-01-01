@@ -2,7 +2,7 @@
   "intents": [
     {
       "intent": "greeting",
-      "examples": [
+      "patterns": [
         "Hello!",
         "Hi there!",
         "Good morning",
@@ -19,7 +19,7 @@
     },
     {
       "intent": "goodbye",
-      "examples": [
+      "patterns": [
         "Goodbye!",
         "See you later",
         "I have to go",
@@ -34,7 +34,7 @@
     },
     {
       "intent": "affirmative",
-      "examples": [
+      "patterns": [
         "Yes",
         "Sure",
         "Definitely",
@@ -49,7 +49,7 @@
     },
     {
       "intent": "negative",
-      "examples": [
+      "patterns": [
         "No",
         "Not really",
         "I don't think so",
@@ -64,7 +64,7 @@
     },
     {
       "intent": "ask_time",
-      "examples": [
+      "patterns": [
         "What time is it?",
         "Can you tell me the time?",
         "Do you know what time it is?",
@@ -79,7 +79,7 @@
     },
     {
       "intent": "ask_weather",
-      "examples": [
+      "patterns": [
         "What's the weather like?",
         "Do you know what the weather is?",
         "Is it raining outside?",
@@ -91,7 +91,7 @@
     },
     {
       "intent": "view_order_status",
-      "examples": [
+      "patterns": [
         "What is the status of my order?",
         "Can you tell me the status of my order?",
         "I'd like to know the status of my order",
@@ -106,7 +106,7 @@
     },
     {
       "intent": "cancel_order",
-      "examples": [
+      "patterns": [
         "I'd like to cancel my order",
         "Can you cancel my order?",
         "I want to cancel my order",
@@ -121,7 +121,7 @@
     },
     {
       "intent": "return_order",
-      "examples": [
+      "patterns": [
         "I'd like to return my order",
         "Can you help me return my order?",
         "I want to return my order",
@@ -136,7 +136,7 @@
     },
     {
       "intent": "change_order",
-      "examples": [
+      "patterns": [
         "I'd like to change my order",
         "Can you help me change my order?",
         "I want to change my order",
@@ -150,7 +150,7 @@
     },
     {
       "intent": "add_item_to_order",
-      "examples": [
+      "patterns": [
         "I'd like to add an item to my order",
         "Can I add an item to my order?",
         "I want to add an item to my order",
@@ -165,7 +165,7 @@
     },
     {
       "intent": "remove_item_from_order",
-      "examples": [
+      "patterns": [
         "I'd like to remove an item from my order",
         "Can I remove an item from my order?",
         "I want to remove an item from my order",
@@ -180,7 +180,7 @@
     },
     {
       "intent": "change_shipping_address",
-      "examples": [
+      "patterns": [
         "I'd like to change the shipping address for my order",
         "Can I change the shipping address for my order?",
         "I want to change the shipping address for my order",
@@ -195,7 +195,7 @@
     },
     {
       "intent": "change_payment_method",
-      "examples": [
+      "patterns": [
         "I'd like to change the payment method for my order",
         "Can I change the payment method for my order?",
         "I want to change the payment method for my order",
