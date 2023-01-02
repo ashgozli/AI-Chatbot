@@ -27,7 +27,7 @@
 ## **Intents Customization**
 The Chatbot is not limited to only ecommerce purposes. You can create your own custom tags, patterns, and responses in the Ecommerce_Intents.json file to use the Chatbot for any purpose. This allows you to input your own data and customize the Chatbot to fit your needs.
 
-- To create your own `tags`, `patterns`, and `responses`, you will need to open the `Ecommerce_Intents.json` file. This file contains a list of intents, which are a combination of a tag, pattern, and response.
+- To create your own `tags`, `patterns`, and `responses`, you will need to open the [Ecommerce_Intents.json](https://github.com/ashgozli/AI-Chatbot/blob/main/Ecommerce_Intents.json) file. This file contains a list of intents, which are a combination of a tag, pattern, and response.
 
 - To create a new intent, you will need to add a new object to the list of intents. Each intent object should contain the following properties:
 
